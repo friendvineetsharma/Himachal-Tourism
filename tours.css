@@ -1,0 +1,264 @@
+@font-face {
+  font-family: campus;
+  src: url(CAMPUS.ttf);
+  font-family: anvil;
+  src: url(ANVIL.ttf);
+  font-family: pencil;
+  src: url(pencil.ttf);
+}
+body{
+  margin:0;
+  padding: 0;
+}
+#main-header{
+  background-image: url(114.jpg);
+  background-size:cover;
+  width:100%;
+  height: 75px;
+  z-index:10;
+  position: fixed;
+  transition: all 0.5s ease-in-out;
+}
+header {
+  margin-top: 0px;
+  background-color: rgba(0,0,0,.2);
+  width: 100%;
+  position:fixed;
+  transition: all 0.5s ease-in-out;
+}
+header ul li{
+  border-left:1px solid powderblue;
+  display:inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0px 25px;
+  padding: 10px 10px;
+}
+header ul a{
+  color: white;
+  text-decoration: none;
+}
+.nav{
+  float: right;
+  margin-right:100px;
+}
+.submenu{
+  margin-top: 15px;
+  letter-spacing: 80%;
+  display: none;
+  position: absolute;
+  width: 150px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 20px;
+}
+#submenu-item {
+  width: 150px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+#submenu-item:hover{
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+}
+.submenuT{
+  margin-top: 15px;
+  letter-spacing: 80%;
+  display: none;
+  position: absolute;
+  width: 100px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 20px;
+}
+#submenu-itemT {
+  width: 100px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+#submenu-itemT:hover{
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+}
+#att:hover .submenuT{
+  display:block;
+}
+#att:hover .submenu{
+  display:block;
+}
+#id1{
+  float: left;
+  margin: 10px 80px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px 1px;
+  width: 300px;
+  height: 100hv;
+}
+#id2{
+  margin-top: 180px;
+  width: 100%;
+  height: 500hv;
+}
+#heading1{
+  font-size: 56px;
+  font-family: Algerian;
+}
+#heading2{
+  font-size: 56px;
+  font-family: Algerian;
+}
+#heading3{
+  font-size: 56px;
+  font-family: Algerian;
+}
+#heading4{
+  font-size: 56px;
+  font-family: Algerian;
+}
+html{
+  scroll-behavior: smooth;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  top: 75px;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin-top: 77px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#tooplate_main {
+	clear: both;
+	width: 960px;
+	padding: 40px 0 30px;
+  margin-left: 300px;
+}
+.post_box .image_frame {
+	float: left;
+	margin-right: 40px;
+}
+.post_box h2 {
+	font-size: 34px;
+	margin-bottom: 0px
+}
+
+.post_box p.post_meta {
+	margin-bottom: 0;
+}
+
+.post_box img {
+	float: left;
+	margin-right: 20px;
+}
+.image_frame {
+	position: relative;
+	width: 300px;
+	height: 131px;
+}
+
+.image_frame img {
+	margin: 10px;
+	width: 280px;
+	height: 110px;
+}
+
+.image_frame span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 131px;
+	background: url(tooplate_image_frame.png) no-repeat;
+}
+a.more {
+  float: right;
+	display: block;
+	width: 120px;
+	height: 28px;
+	padding-top: 4px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	background: url(tooplate_button.png) no-repeat top center;
+	color: #456318; /* text-shadow: 1px 1px 1px #addb64 */;
+}
+
+a.more:hover {
+	color: #fff; /* text-shadow: 1px 1px 1px #476715 */;
+}
+.cleaner { clear: both }
+#rightbutton{
+  float: right;
+  color: blue;
+}
+footer.class2{
+  width: 100%;
+  min-height: 240px;
+}
+.class3{
+  width: 80%;
+  margin: 0px auto;
+}
+.class4{
+  width:20%;
+  min-height: 220px;
+  padding: 2.5%;
+  float: left;
+}
+.class4 h4{
+  color: darkslategrey;
+  border-bottom: 1px solid rgba(0, 128, 0, 0.23);
+  font-size: 15px;
+}
+.class4 img{
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 100%;
+}
+footer{
+  clear: both;
+  width: 100%;
+  min-height: 300px;
+  background-color: white;
+  background-image: linear-gradient(white,black);
+}

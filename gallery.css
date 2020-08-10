@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+background: #000;
+}
+ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+
+}
+ul li{
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5 s;
+margin: -100px;
+overflow: hidden;
+opacity: 0.5;
+}
+ul li:hover{
+  opacity: 1;
+
+}
+ul li.item1{
+  top: 0;
+  left: 0;
+
+}
+ul li.item2{
+  bottom: 0;
+  left: 25%;
+}
+ul li.item3{
+  top: 0;
+  left: 50%;
+}
+ul li.item4{
+  bottom: 0;
+  left: 75%;
+}
+ul li.item5{
+  top: 0;
+  left: 100%;
+}
+
+.item1{
+  background: url("1111.jpg");
+  background-size: cover;
+
+}
+.item2{
+  background: url(1133.jpg);
+  background-size: cover;
+}
+.item3{
+    background: url(1144.jpg);
+    background-size: cover;
+  }
+ .item4{
+      background: url(115.jpg);
+      background-size: cover;
+    }
+  .item5{
+        background: url(116.jpg);
+        background-size: cover;
+}
